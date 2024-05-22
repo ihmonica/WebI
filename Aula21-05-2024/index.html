@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro do Agricultor</h1>
+    <form action="www.minhaapi" method="post">
+        <h2>Titular/Produtor</h2>
+        <div class="campo">
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="nome" >
+        </div>
+        <div class="campo">
+            <label for="genero">
+                Genero:
+            </label>
+            <input type="radio" id="feminino" value="Feminino" name="genero">
+            <label for="feminino">Feminino</label>
+         
+            <input type="radio" id="masculino" value="Masculino" name="genero">
+            <label for="masculino">Masculino</label>
+        </div>
+        <div class="campo">
+            <label for="CPF">
+                CPF:
+            </label>
+            <input type="text" id="CPF" >
+        </div>
+        <div class="campo">
+            <label for="nomeDaMae">
+                Nome da Mãe:
+            </label>
+            <input type="text" id="nomeDaMae" >
+        </div>
+        <div class="campo">
+            <label for="apelido">
+                Apelido:
+            </label>
+            <input type="text" id="apelido" >
+        </div>
+        <div class="campo">
+            <label for="dataNascimento">
+                Data de nascimento:
+            </label>
+            <input type="date" id="dataNascimento" >
+        </div>
+        <div class="campo">
+            <label for="RG">
+                RG:
+            </label>
+            <input type="text" id="RG" >
+        </div>
+        <div class="campo">
+            <label for="ufOrgaoEmissor">
+                UF Orgão Emissor:
+            </label>
+            <input type="text" id="ufOrgaoEmissor" >
+        </div>
+        <div class="campo">
+            <label for="nis">
+                NIS:
+            </label>
+            <input type="text" id="nis" >
+        </div>
+        <div class="campo">
+            <label for="munNascimento">
+                Municipio de Nascimento:
+            </label>
+            <input type="text" id="munNascimento" >
+        </div>
+        
+        <div class="campo">
+            <label for="escolaridade">
+                Escolaridade:
+            </label>
+            <select name="escolaridade" id="escolaridade">
+                <option value="fundamentalIncompleto">Ensino Fundamental Incompleto</option>
+                <option value="fundamentalCompleto">Ensino Fundamental Completo</option>
+                <option value="medioIncompleto">Ensino Medio Incompleto</option>
+                <option value="medioCompleto">Ensino Medio Completo</option>
+                <option value="superiorIncompleto">Ensino Superior Incompleto</option>
+                <option value="superiorCompleto">Ensino Superior Completo</option>
+
+            </select>
+        </div>
+
+
+        <h2>Conjuge</h2>
+        <div class="campo">
+            <label for="nomeConjuge">
+                Nome:
+            </label>
+            <input type="text" id="nomeConjuge" >
+        </div>
+        <div class="campo">
+            <label for="generoConjuge">
+                Genero:
+            </label>
+            <input type="radio" id="feminino" value="Feminino" name="generoConjuge">
+            <label for="feminino">Feminino</label>
+         
+            <input type="radio" id="masculino" value="Masculino" name="generoConjuge" >
+            <label for="masculino">Masculino</label>
+        </div>
+        <div class="campo">
+            <label for="CPFconjuge">
+                CPF:
+            </label>
+            <input type="text" id="CPFconjuge" >
+        </div>
+        <div class="campo">
+            <label for="nomeDaMaeConjuge">
+                Nome da Mãe:
+            </label>
+            <input type="text" id="nomeDaMaeConjuge" >
+        </div>
+        <div class="campo">
+            <label for="apelidoConjuge">
+                Apelido:
+            </label>
+            <input type="text" id="apelidoConjuge" >
+        </div>
+        <div class="campo">
+            <label for="dataNascimentoConjuge">
+                Data de nascimento:
+            </label>
+            <input type="date" id="dataNascimentoConjuge" >
+        </div>
+        <div class="campo">
+            <label for="RGconjuge">
+                RG:
+            </label>
+            <input type="text" id="RGconjuge" >
+        </div>
+        <div class="campo">
+            <label for="ufOrgaoEmissorConjuge">
+                UF Orgão Emissor:
+            </label>
+            <input type="text" id="ufOrgaoEmissorConjuge" >
+        </div>
+        <div class="campo">
+            <label for="nisConjuge">
+                NIS:
+            </label>
+            <input type="text" id="nisConjuge" >
+        </div>
+        <div class="campo">
+            <label for="munNascimentoConjuge">
+                Municipio de Nascimento:
+            </label>
+            <input type="text" id="munNascimentoConjuge" >
+        </div>
+        
+        <div class="campo">
+            <label for="escolaridadeConjuge">
+                Escolaridade:
+            </label>
+            <select name="escolaridadeConjuge" id="escolaridadeConjuge">
+                <option value="fundamentalIncompleto">Ensino Fundamental Incompleto</option>
+                <option value="fundamentalCompleto">Ensino Fundamental Completo</option>
+                <option value="medioIncompleto">Ensino Medio Incompleto</option>
+                <option value="medioCompleto">Ensino Medio Completo</option>
+                <option value="superiorIncompleto">Ensino Superior Incompleto</option>
+                <option value="superiorCompleto">Ensino Superior Completo</option>
+
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="numPessoasResidentes">
+                Numero de pessoas da familia residente no estabelecimento:
+            </label>
+            <input type="number" id="numPessoasResidentes" >
+        </div>
+        <div class="campo">
+            <label for="estadoCivil">
+                Estado Civil:
+            </label>
+            <select name="estadoCivil" id="estadoCivil">
+                <option value="casado">Casado(a)</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="viuvo">Viuvo(a)</option>
+                <option value="uniaoEstavel">União Estavel</option>
+                <option value="separado">Separado(a)</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="localDeResidencia">
+                Local de residência:
+            </label>
+            <input type="text" id="localDeResidencia" >
+        </div>
+        <div class="campo">
+            <label for="cidade">
+                Cidade:
+            </label>
+            <input type="text" id="cidade">
+        </div>
+        <div class="campo">
+            <label for="endereco">
+                Endereço:
+            </label>
+            <input type="text" id="endereco">
+        </div>
+        <div class="campo">
+            <label for="numEndereco">
+                Nº:
+            </label>
+            <input type="text" id="numEndereco">
+        </div>
+        <div class="campo">
+            <label for="comunidade">
+                Comunidade:
+            </label>
+            <input type="text" id="comunidade">
+        </div>
+        <div class="campo">
+            <label for="cep">
+                CEP:
+            </label>
+            <input type="text" id="cep">
+        </div>
+        <div class="campo">
+            <label for="uf">
+                UF:
+            </label>
+            <input type="text" id="uf">
+        </div>
+
+        <input type="button" value="Enviar" id="botaoEnviar">
+
+    </form>
+</body>
+</html>
